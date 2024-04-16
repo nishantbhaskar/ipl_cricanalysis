@@ -2,4 +2,4 @@
 
  SELECT * FROM `neat-vent-383007.dbt_nbhaskar.gold_ipl_records` where bowler='{{bowler}}'  and number_of_ball_face>5 order by average desc
 )
-{{% endmacro%}}
+{% endmacro%}

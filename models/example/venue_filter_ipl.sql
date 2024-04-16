@@ -1,2 +1,2 @@
 {{ config(materialized='view') }}
-{{ get_media_query('Eden Gardens') }}
+{{ venue_filter_data('Eden Gardens') }}

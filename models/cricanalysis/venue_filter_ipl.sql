@@ -1,2 +1,2 @@
 {{ config(materialized='view') }}
-{{ venue_filter_data('rajiv') }}
+{{ venue_filter_data('mumbai') }}

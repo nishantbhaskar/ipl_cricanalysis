@@ -1,0 +1,1 @@
+select count(*) from {{ bastman_record_at_this_palace('russell') }} having count(*)=0

@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+    - name: stg_ipl_records
+      description: "A starter dbt model"
+      columns:
+          - name: match_id
+            description: "The primary key for this table"
+            tests:
+                - not_null
+
+    - name: spec_bastman_vs_spec_bowler
+      description: "A starter dbt model"
+      columns:
+          - name: bowler
+            description: "the bowler is present"
+            tests:
+                - not_null

@@ -1,2 +1,2 @@
 {{ config(materialized='view') }}
-{{ bastman_record_at_this_palace('sharma') }}
+{{ bastman_record_at_this_palace('kock') }}

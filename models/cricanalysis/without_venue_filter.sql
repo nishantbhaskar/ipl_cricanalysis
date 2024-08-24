@@ -1,2 +1,2 @@
 {{ config(materialized='view') }}
-{{ filter_data }}
+{{ filter_data() }}
